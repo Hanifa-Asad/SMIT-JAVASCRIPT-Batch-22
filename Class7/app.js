@@ -21,24 +21,38 @@
 //     }
 // }
 
-let secretNumber = 7
-let attempts = []
-for(let i=1; i<=5; i++){
-    let guess = Number(prompt("Guess a number between 1 and 10"));
-    attempts.push(guess);
-    if(guess===secretNumber){
-        console.log("Correct u guessed the number");
-        console.log("Your guesses", attempts);
+// let secretNumber = 7
+// let attempts = []
+// for(let i=1; i<=5; i++){
+//     let guess = Number(prompt("Guess a number between 1 and 10"));
+//     attempts.push(guess);
+//     if(guess===secretNumber){
+//         console.log("Correct u guessed the number");
+//         console.log("Your guesses", attempts);
         
-        break;
-    }else if(guess<secretNumber){
-        console.log("too low");
+//         break;
+//     }else if(guess<secretNumber){
+//         console.log("too low");
         
-    }else{
-        console.log("too high");
+//     }else{
+//         console.log("too high");
         
-    }
-    console.log("ATTEMPTS REMAINING:", 5-i);
+//     }
+//     console.log("ATTEMPTS REMAINING:", 5-i);
     
-}
-console.log("ALL GUESSES", attempts);
+// }
+// console.log("ALL GUESSES", attempts);
+
+
+
+let A = [24, 53, 78, 91, 12];
+
+let largest = Math.max(...A);
+
+console.log("The largest number is", largest);
+
+let B = [24, 53, 78, 91, 12];
+
+let smallest = Math.min(...B);
+
+console.log("The Smallest number is", smallest);
