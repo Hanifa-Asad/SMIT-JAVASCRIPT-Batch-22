@@ -37,31 +37,31 @@ let text = "JavaScript"
 // fruit = fruit.replace("apple","mango");
 // console.log(fruit);
 
-// let username =  prompt("Enter your username");
-// username = username.toLowerCase();
-// let length = username.length;
-// let starts = username.startsWith("user_")
-// let hasSpace = username.includes(" ");
-// username = username.replace("@","a")
-// let firstthree = username.slice(0,3);
+let username =  prompt("Enter your username");
+username = username.toLowerCase();
+let length = username.length;
+let starts = username.startsWith("user_")
+let hasSpace = username.includes(" ");
+username = username.replace("@","a")
+let firstthree = username.slice(0,3);
 
 
-// console.log("username:", username);
-// console.log("length:", length);
-// console.log("start with user:",starts);
-// console.log("contains space:", hasSpace);
-// console.log("First 3 characters:", firstthree);
+console.log("username:", username);
+console.log("length:", length);
+console.log("start with user:",starts);
+console.log("contains space:", hasSpace);
+console.log("First 3 characters:", firstthree);
 
-// if(length<5){
-//     console.log(" username is too short");
+if(length<5){
+    console.log(" username is too short");
     
-// }else if (hasSpace){
-//     console.log("username cannot contain space");
+}else if (hasSpace){
+    console.log("username cannot contain space");
     
-// }else{
-//     console.log("username is valid");
+}else{
+    console.log("username is valid");
     
-// }
+}
 
 let products = [
     "Apple","Mango","Berry", "Banana", "Grapes"
