@@ -4,7 +4,7 @@
 // console.log(Math.floor(num));
 // console.log(Math.ceil(num));
 // Math.random();
-// let random = Math.random()*20
+// let random = Math.random()*10
 // console.log(random);
 // let randomNum = Math.floor(Math.random()*10)
 // console.log(randomNum);

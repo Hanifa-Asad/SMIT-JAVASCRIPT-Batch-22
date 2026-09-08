@@ -28,7 +28,7 @@ let text = "JavaScript"
 // console.log(character);
 // console.log(fname.charAt(5));
 // console.log(text);
-// text = text.replace("S", "s")
+// text = text.replace("S, "s")
 // console.log(text);
 // text = text.replace("Javascript", "python");
 // console.log(text);
