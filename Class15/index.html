@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function add(a, b) {
+        return a + b;
+        // let c = a + b;
+        // console.log(c);
+      }
+      let c = add(2, 5);
+      console.log(c);
+    </script>
+    <!-- internal -->
+  </head>
+  <body>
+    <button onClick="alert('hello')">hello world</button>
+    <!-- inline -->
+    <button onclick="hello()">Click me</button>
+    <p onmouseover="over()">Mouse moves over me</p>
+    <p onmouseout="out()">MOUSE MOVES HERE</p>
+    <input type="text" placeholder="Enter your Name" onfocus="focusInput()" />
+    <input type="text" placeholder="Enter your Name" onblur="blurInput()" />
+    <input
+      type="text"
+      id="name"
+      placeholder="Enter your Name"
+      oninput="readName()"
+    />
+    <input
+      type="text"
+      id="city"
+      placeholder="Enter your city"
+      onchange="cityChange()"
+    />
+    <img
+      src="https://img.magnific.com/free-vector/energy-saving-lightbulb-isolated_1284-41849.jpg?semt=ais_hybrid&w=740&q=80"
+      alt=""
+      id="bulb"
+      onmouseover="bulbHover()"
+      onmouseout="bulbLeave()"
+      width="300px"
+    />
+
+    <img
+      src="https://img.magnific.com/free-vector/energy-saving-lightbulb-isolated_1284-41849.jpg?semt=ais_hybrid&w=740&q=80"
+      alt="" width="300px" id="on"
+    />
+
+    <button onclick="turnOn()">ON</button>
+    <button onclick="turnOff()">OFF</button>
+
+    <script src="app.js"></script>
+    <!-- external -->
+  </body>
+</html>
